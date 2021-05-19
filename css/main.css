@@ -9,9 +9,13 @@
     padding: 0;
 }
 
+
+/* elementos base */
+
 body {
     background-color: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -35,4 +39,27 @@ header nav a {
 
 header nav a:hover {
     color: #FFF;
+}
+
+
+/* filme principal */
+
+.filme-principal {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("https://i.picsum.photos/id/671/1000/500.jpg?hmac=FAY2tEDbkzmTct703mTaaZgQTpFXS-2vqF9MEqcY-go");
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    height: 500px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 45px;
+}
+
+.titulo {
+    font-size: 50px;
 }
